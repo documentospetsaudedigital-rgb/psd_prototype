@@ -1,0 +1,3 @@
+# Trava de Edição Explícita para o Documento de Matriciamento (RN15)
+
+Para cumprir a regra de negócio RN15 (gravação não simultânea no Documento de Matriciamento compartilhado) e assegurar que as deliberações clínicas não sofram sobrescrita acidental, optou-se por um modelo de trava de edição explícita (*exclusive editing lock*) em vez de concorrência simultânea multiusuário ou bloqueio otimista tardio. Ao iniciar a edição (seja em pré-matriciamento ou em reunião com o Relator), o profissional adquire a posse temporária do documento, bloqueando alterações de outros usuários e exibindo alerta visual de quem detém a edição, com possibilidade de liberação pelo próprio autor ao salvar/cancelar ou liberação forçada pelo Profissional de Referência.

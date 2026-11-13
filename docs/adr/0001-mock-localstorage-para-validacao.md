@@ -1,0 +1,3 @@
+# Mock em LocalStorage para Validação de Protótipo com Stakeholders
+
+Para validar o fluxo de ponta a ponta dos 16 casos de uso e as regras de negócio do PET-Saúde Digital diretamente com gestores e profissionais do SUS antes da construção do backend definitivo, optou-se por desenvolver um protótipo navegável em SPA (Vite + React + TypeScript + Tailwind CSS) utilizando uma store client-side persistida em `localStorage` com carga inicial de dados sintéticos (*seed data*). Isso viabiliza feedback rápido e testes de usabilidade realistas sem fricção de infraestrutura ou dependência de rede, com o trade-off de que a concorrência multiusuário simultânea em tempo real é simulada por alternância de papéis (*quick switcher / impersonate*).
